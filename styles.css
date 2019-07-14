@@ -1,4 +1,39 @@
-a {
-    font-size: 500px;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.lo{
+  float: left;
+  line-height: 100px;
+  transform: translateY(10px);
+  width: 20%;
+  height: 80%;
 }
 
+.nav {
+  line-height: 100px;
+  float: right;
+}
+.nav a{
+  padding: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+.nav a:hover,
+.show-nav:hover,
+.hide-nav:hover{
+  color: #cc0000;
+}
+.show-nav:hover, .hide-nav:hover{
+  transition: 0.5s;
+}
+.header{
+
+  color: #fff;
+  height: 100px;
+  background-color: #34495e;
+  padding: 0 20px;
+
+}
